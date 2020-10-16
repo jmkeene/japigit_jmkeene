@@ -30,7 +30,7 @@ def main():
         if userInput != "EXIT":
             serverData = 'The current price of {} is {}\n'.format(userInput, getStockdata(userInput))
             print(serverData)
-	    print("Stock Quotes retrieved successfully!")
+	    print("Stock Quotes retrieved successfully")
             outFile.write(serverData)
         else:
             sys.exit("\nExiting Program\n")
